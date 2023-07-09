@@ -53,6 +53,7 @@ h6 {
 }
 
 .card {
+  min-height: 300px;
   background-color: #ffffffbd;
   box-shadow: 3px 3px 17px -8px #00000091;
 }
@@ -106,5 +107,10 @@ i {
 
   #author {
     font-size: 13px;
+  }
+
+  i {
+    font-size: 12px;
+    padding: 0;
   }
 }
