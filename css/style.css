@@ -1,0 +1,110 @@
+/*===== Global =====*/
+:root {
+  --main-font: "Ysabeau Office", sans-serif;
+  --heading-font: "Diphylleia", serif;
+}
+
+::selection {
+  background-color: #693372bf;
+  color: #fff;
+}
+
+body {
+  font-family: var(--main-font);
+  letter-spacing: 0.8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  letter-spacing: 1px;
+}
+
+.adjust-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.btn-main {
+  background-image: linear-gradient(
+    to right,
+    rgba(137, 3, 199, 0.364),
+    rgba(6, 151, 183, 0.367)
+  );
+  border-radius: 100vh;
+  border: inherit;
+  --bs-btn-color: #ffffffee;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(105, 51, 115);
+  --bs-btn-hover-border-color: rgb(105, 51, 115);
+  letter-spacing: 1px;
+  font-weight: bolder;
+  box-shadow: 1px 3px 7px -5px #4f0b4fc4;
+}
+
+/*===== Home =====*/
+.home {
+  background-image: linear-gradient(to right, #8903c727, #0697b827),
+    url(../images/dots.png);
+}
+
+.card {
+  background-color: #ffffffbd;
+  box-shadow: 3px 3px 17px -8px #00000091;
+}
+
+h1 {
+  color: #693372bf;
+  text-shadow: -2px 1px 0px #80008030;
+}
+
+h1::first-letter {
+  font-size: 63px;
+  padding-right: 5px;
+  padding-top: 2px;
+  color: #4f0b4f8f;
+  font-weight: 500;
+}
+
+h4 {
+  color: #8d648ede;
+  font-size: 19px;
+}
+
+#quote {
+  color: #4f0b4fc4;
+  font-style: italic;
+}
+
+#author {
+  color: #8d648ede;
+  margin-top: -6px;
+}
+
+i {
+  color: #4f0b4f8f;
+  font-size: 20px;
+  padding-block: 15px;
+}
+
+@media screen and (max-width: 415px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h1::first-letter {
+    font-size: 45px;
+  }
+
+  #quote {
+    font-size: 18px;
+  }
+
+  #author {
+    font-size: 13px;
+  }
+}

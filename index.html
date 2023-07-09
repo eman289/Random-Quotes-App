@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes App</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- Google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Ysabeau+Office:wght@1;100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main
+      id="home"
+      class="home vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="container">
+        <div class="card text-center adjust-content p-5">
+          <i class="fa-solid fa-quote-left"></i>
+          <div
+            class="card-body d-flex flex-column justify-content-center align-items-center gap-4"
+          >
+            <h1>Quote of the day</h1>
+            <blockquote class="blockquote mb-0 mt-2">
+              <p id="quote"></p>
+              <footer id="author" class="blockquote-footer"></footer>
+            </blockquote>
+            <button
+              type="button"
+              onclick="newQuote()"
+              class="btn btn-main px-4 mb-4"
+              title="Recieve a random quote"
+            >
+              New Quote
+            </button>
+          </div>
+          <i class="fa-solid fa-quote-right"></i>
+        </div>
+      </div>
+    </main>
+    <!-- Js -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
