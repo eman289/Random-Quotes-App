@@ -48,12 +48,12 @@ h6 {
 
 /*===== Home =====*/
 .home {
+  min-height: 100vh;
   background-image: linear-gradient(to right, #8903c727, #0697b827),
     url(../images/dots.png);
 }
 
 .card {
-  min-height: 300px;
   background-color: #ffffffbd;
   box-shadow: 3px 3px 17px -8px #00000091;
 }
