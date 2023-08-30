@@ -1,4 +1,4 @@
-var quote = [
+const quote = [
   {
     text: "“Life is too short to waste your time on people who don’t respect, appreciate, and value you.”",
     author: "— Roy T. Bennett",
@@ -185,10 +185,10 @@ var quote = [
   },
 ];
 
-var previousIndex = "";
+let previousIndex = "";
 
 function newQuote() {
-  var index = "";
+  let index = "";
   do {
     index = Math.floor(Math.random() * quote.length);
   } while (previousIndex == index);
